@@ -1,0 +1,197 @@
+body {
+    background-color: #004766;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111111;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid#2a2a2a;
+}
+
+.tituloI {
+    color: #80d9ff  ;
+    margin: 0;
+    font-size: 2rem;
+
+}
+.links ul {
+    display: flex;
+    gap: 5rem;
+    font-size: 1rem;
+
+}
+
+.links ul li a {
+    display: block;
+    padding: 15px 20px;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px ;
+    text-emphasis: none;
+    color: #67e8f9;
+    border-bottom: 3px solid transparent;
+
+}
+.links ul li a:hover{
+    border-bottom: 3px solid #67e8f9;
+}
+h2, h3, h4, h5, h6{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #80d9ff;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: 25px;
+    line-height: 2;
+    padding: 10px;
+    
+}
+
+/*intro*/
+.cero {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.cero p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.intro {
+    order: 2;
+    width: 400px;
+}
+
+
+
+/*que es inteligencia Artificial*/
+
+.que_es_img {
+    width: 400px;
+    order: 1;
+    
+}
+
+.uno {
+ display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+ 
+}
+
+.uno p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+
+}
+
+/*Historia inteligencia Artificial*/
+
+.dos{
+     display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 2cqi;
+    
+}
+
+.dos p{
+     order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+
+}
+.historia_img{
+    width: 500px;
+    order: 1;
+}
+
+
+
+/*cual es la importancia*/
+
+.tres{
+     display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    
+}
+.tres p{
+    order: 2;
+    margin-bottom: 0;
+}
+
+.impor {
+     width: 500px;
+    order: 1;
+}
+
+.tres ul li{
+    order: 3;
+    list-style-type: circle;
+    margin-left: 30px;
+
+}
+
+.texto-importancia{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*ventajas y desventajas de la ia*/
+.cuatro {
+     display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.cuatro p{
+        border-left: 10px solid #5CE65C;
+
+}
+
+
+.Ven, ul, li {
+    order: 2;
+    list-style-type: circle;
+    margin-left: 30px;
+        font-size: 25;
+
+
+}
+.Des, ul, li{
+    order: 3;
+    list-style-type: circle;
+    margin-left: 30px;
+    font-size: 25;
+}
+
