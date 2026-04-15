@@ -1,0 +1,188 @@
+body {
+    background-color: #004766;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111111;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid#2a2a2a;
+}
+
+.tituloI {
+    color: #80d9ff  ;
+    margin: 0;
+    font-size: 2rem;
+
+}
+.links ul {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.5rem;
+
+}
+
+.links ul li a {
+    display: block;
+    padding: 15px 30px;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px ;
+    text-emphasis: none;
+    color: #67e8f9;
+    border-bottom: 3px solid transparent;
+
+}
+.links ul li a:hover{
+    border-bottom: 3px solid #67e8f9;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #80d9ff;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: 25px;
+    line-height: 2;
+    padding: 10px;
+    
+}
+
+/*Propósito de la Inteligencia Artificial*/
+
+.uno {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.uno p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.intro_pro {
+      width: 400px;
+    order: 1;
+}
+
+/*Automatización de tareas*/
+.dos {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.dos p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.automatizacion {
+      width: 400px;
+    order: 2;
+}
+
+
+/*Mejora en la toma de decisiones*/
+.tres {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.tres p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.tomo_decision {
+      width: 400px;
+    order: 1;
+}
+
+
+/*Apoyo en la educación*/
+.cuatro {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.cuatro p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.Apoyo {
+      width: 400px;
+    order: 2;
+}
+
+
+/*Impacto en la sociedad*/
+
+.impacto {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.impacto p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.impactos {
+      width: 400px;
+    order: 1;
+}
+
+/*Futuro de la inteligencia artificial*/
+
+.futuro_ia {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+
+.futuro_ia p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+
+}
+
+.fututo {
+      width: 600px;
+    order: 2;
+}

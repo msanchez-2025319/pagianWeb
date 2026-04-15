@@ -1,0 +1,239 @@
+body {
+    background-color: #004766;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111111;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid#2a2a2a;
+}
+
+.tituloI {
+    color: #80d9ff  ;
+    margin: 0;
+    font-size: 2rem;
+
+}
+.links ul {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.5rem;
+
+}
+
+.links ul li a {
+    display: block;
+    padding: 15px 30px;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px ;
+    text-emphasis: none;
+    color: #67e8f9;
+    border-bottom: 3px solid transparent;
+
+}
+.links ul li a:hover{
+    border-bottom: 3px solid #67e8f9;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #80d9ff;
+    text-align: center;
+    width: 100%;
+    
+}
+
+p {
+    font-size: 25px;
+    line-height: 2;
+    padding: 10px;
+    
+}
+/*Tipos de Inteligencias Artificiales*/
+.funcionamiento {
+     display: grid ;
+    grid-template-areas: "uno  uno" "debil fuerte" "dos dos";
+     grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 30px;
+    justify-items: center;
+}
+
+.débil, .fuerte, ul, li {
+    order: 1;
+    list-style-type: circle;
+    margin-left: 30px;
+    font-size: 25;
+}
+
+.funcionamiento p.uno{
+    grid-area: uno;
+    border-left: 10px solid #5CE65C;
+    padding-left: 10px;
+
+}
+.débil {
+    grid-area: debil;
+}
+.fuerte{
+    grid-area: fuerte;
+}
+.funcionamiento p.dos{
+    grid-area: dos;
+    border-left: 10px solid #5CE65C;
+     padding-left: 10px;
+
+}
+
+/*Aprendizaje automático (Machine Learning)*/
+.Learning {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Learning p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.Aprendizaje {
+      width: 400px;
+    order: 1;
+}
+
+/*Aprendizaje profundo (Deep Learning)*/
+.Deep {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Deep p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+    padding-left: 15px;
+}
+.aprendi {
+    order: 2;
+    width: 400px;
+}
+
+.Learning{
+    flex-direction: column;
+}
+
+/*Redes neuronales artificiales*/
+.neuronales {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.neuronales p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.redes {
+      width: 400px;
+    order: 1;
+}
+/*Procesamiento de datos*/
+.Procesamiento {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Procesamiento p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.procesa {
+      width: 400px;
+    order: 2;
+}
+/*Algoritmos en la IA*/
+.Algoritmos {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Algoritmos p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.algoritmo {
+      width: 400px;
+    order: 1;
+}
+
+/*Entrenamiento de modelos*/
+.Entrenamiento {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Entrenamiento p{
+    order: 1;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.entreno {
+      width: 400px;
+    order: 2;
+}
+
+/*Reconocimiento de patrones*/
+.Reconocimiento {
+    display: flex ;
+ align-items: center;
+ gap: 50px;
+ padding: 20px;
+ justify-content: center;
+}
+
+.Reconocimiento p{
+    order: 2;
+    max-width: 50%;
+    border-left: 10px solid #5CE65C;
+}
+.reconoces {
+      width: 400px;
+    order: 1;
+}
+
+
